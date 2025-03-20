@@ -1,6 +1,3 @@
-test1
-
-
 function caesarCipher(text: string, shift: number, decrypt: boolean = false): string {
     if (decrypt) shift = -shift;
   
